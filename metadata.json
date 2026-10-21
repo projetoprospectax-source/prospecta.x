@@ -1,0 +1,6 @@
+{
+  "name": "Prospecta X - Alavancagem de Vendas & Criação de Sites",
+  "description": "Agência de alta performance em alavancagem de vendas, criação de sites e geração de oportunidades para pequenas e médias empresas no Sul do Brasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

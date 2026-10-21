@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prospecta X | Alavancagem de Vendas & Criação de Sites</title>
+    <meta name="description" content="Onde negócios começam e relacionamentos permanecem. Agência de alavancagem de vendas, geração de reuniões qualificadas e criação de sites para PMEs no Sul do Brasil." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Prospecta X | Alavancagem de Vendas & Criação de Sites" />
+    <meta property="og:description" content="Onde negócios começam e relacionamentos permanecem. Estratégias comerciais completas, sites de alta conversão e geração de receita para PMEs." />
+    <meta property="og:locale" content="pt_BR" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Prospecta X | Alavancagem de Vendas & Criação de Sites" />
+    <meta name="twitter:description" content="Onde negócios começam e relacionamentos permanecem. Consultoria comercial e desenvolvimento digital no Sul do Brasil." />
+    
+    <meta property="og:image" content="/images/logo.png?v=20261018" />
+    <meta property="og:image:secure_url" content="/images/logo.png?v=20261018" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="Logotipo Oficial Prospecta X" />
+    <meta name="twitter:image" content="/images/logo.png?v=20261018" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/logo.png?v=20261018" />
+    <link rel="apple-touch-icon" href="/images/logo.png?v=20261018" />
+    <script>
+      (function() {
+        var origin = window.location.origin;
+        var ogImg = document.querySelector('meta[property="og:image"]');
+        var ogSec = document.querySelector('meta[property="og:image:secure_url"]');
+        var twImg = document.querySelector('meta[name="twitter:image"]');
+        var fullUrl = origin + '/images/logo.png?v=20261018';
+        if (ogImg) ogImg.setAttribute('content', fullUrl);
+        if (ogSec) ogSec.setAttribute('content', fullUrl);
+        if (twImg) twImg.setAttribute('content', fullUrl);
+      })();
+    </script>
+    
+    <!-- Google Fonts: Plus Jakarta Sans & Outfit (high-end corporate agency aesthetic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-background text-foreground antialiased selection:bg-brand-navy selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
